@@ -2,6 +2,18 @@
 Changelog for package rosconsole
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.53 (2014-01-14)
+-------------------
+* readd g_level_lockup symbol for backward compatibility when log4cxx is being used
+
+1.9.52 (2014-01-08)
+-------------------
+* fix missing export of rosconsole backend interface library
+
+1.9.51 (2014-01-07)
+-------------------
+* refactor rosconsole to not expose log4cxx, implement empty and log4cxx backends
+
 1.9.50 (2013-10-04)
 -------------------
 

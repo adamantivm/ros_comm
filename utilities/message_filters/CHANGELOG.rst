@@ -2,6 +2,18 @@
 Changelog for package message_filters
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.53 (2014-01-14)
+-------------------
+* add kwargs for message_filters.Subscriber
+
+1.9.52 (2014-01-08)
+-------------------
+
+1.9.51 (2014-01-07)
+-------------------
+* update code after refactoring into rosbag_storage and roscpp_core (`#299 <https://github.com/ros/ros_comm/issues/299>`_)
+* fix segmentation fault on OS X 10.9 (clang / libc++)
+
 1.9.50 (2013-10-04)
 -------------------
 
